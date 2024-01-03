@@ -1,0 +1,51 @@
+body {
+    font-family: lightgreen;
+	letter-spacing:2px;
+  }
+  .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-color: black;
+    border-radius: 10px;font-family: Impact,Haettenscheweiler, 'Ariel Narrow Bold', sans-serif;
+  }
+  h1 {
+    text-align: center; 
+    font-style: inherit;
+    color: rgb(8, 8, 150);
+	text-shadow: 2px 2px 5px black;
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .task-item input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .task-item.completed span {
+    text-decoration: line-through;
+    color: #22bf0a;
+  }
+  .task-item .delete-button {
+    margin-left: auto;
+    cursor: pointer;
+    color: #be0e0e;
+  }
+  h2{
+    color: rgb(120,21,21);
+  }
+  #input{
+	  height: 35px;
+	  width:200px;
+	  border-radius: 10px;
+  }
+  button{
+	  height: 40px;
+	  width: 150px;
+	  border-radius: 10px;
+	  background-color:tomato;
+  }
+  button:hover{
+	  background-color:pink;
+  }
